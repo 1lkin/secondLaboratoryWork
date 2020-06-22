@@ -85,18 +85,21 @@ public class Main {
                 .filter(el -> el instanceof StandardLunch)
                 .mapToDouble(IBill::getBill).sum();
 
+        String expensiveType;
         if (orderingLunch > standardLunch) {
-            System.out.println("\"Ordering Lunch\" is expensive than" +
-                    " \"Standard Lunch\".");
+            expensiveType = "Ordering Lunch";
         } else if (standardLunch > orderingLunch) {
-            System.out.println("\"Standard Lunch\" is expensive than" +
-                    " \"Ordering Lunch\".");
+            expensiveType = "Standard Lunch";
         } else {
-            System.out.println("They are equal.");
+            expensiveType = "They are similar";
         }
 
 // Conclusion
 
-        System.out.println();
+        System.out.println("Total price of all meals are: " + totalPrice +
+                ",\nhighest price is: " + highestPrice +
+                ",\nlowest price is: " + lowestPrice +
+                ",\nThe average price of meals is: " + averagePrice +
+                ",\nMore expensive lunch type is: " + expensiveType + ".");
     }
 }
