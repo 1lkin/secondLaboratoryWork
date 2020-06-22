@@ -45,16 +45,11 @@ public class Main {
         StandardLunch meal04 = new StandardLunch("D",64.70);
         StandardLunch meal05 = new StandardLunch("E",95.30);
 
-        OrderingLunch meal06 = new OrderingLunch("F",1,
-                27.30);
-        OrderingLunch meal07 = new OrderingLunch("G",1,
-                26.80);
-        OrderingLunch meal08 = new OrderingLunch("H",1,
-                35.60);
-        OrderingLunch meal09 = new OrderingLunch("I",1,
-                40.30);
-        OrderingLunch meal10 = new OrderingLunch("J",1,
-                32.70);
+        OrderingLunch meal06 = new OrderingLunch("F",1,27.30);
+        OrderingLunch meal07 = new OrderingLunch("G",1,26.80);
+        OrderingLunch meal08 = new OrderingLunch("H",1,35.60);
+        OrderingLunch meal09 = new OrderingLunch("I",1,40.30);
+        OrderingLunch meal10 = new OrderingLunch("J",1,32.70);
 
         List<IBill> menu = new ArrayList<>();
         menu.add(meal01);
