@@ -27,19 +27,19 @@ public class Main {
         StandardLunch meal01 = new StandardLunch("A",82.50);
         StandardLunch meal02 = new StandardLunch("B",55.60);
         StandardLunch meal03 = new StandardLunch("C",112.20);
-        StandardLunch meal04 = new StandardLunch("D",64.7);
-        StandardLunch meal05 = new StandardLunch("E",95.3);
+        StandardLunch meal04 = new StandardLunch("D",64.70);
+        StandardLunch meal05 = new StandardLunch("E",95.30);
 
-        OrderingLunch meal06 = new OrderingLunch("F",3,
-                27.3);
+        OrderingLunch meal06 = new OrderingLunch("F",1,
+                27.30);
         OrderingLunch meal07 = new OrderingLunch("G",1,
-                26.8);
-        OrderingLunch meal08 = new OrderingLunch("H",4,
-                35.6);
-        OrderingLunch meal09 = new OrderingLunch("I",5,
-                40.1);
-        OrderingLunch meal10 = new OrderingLunch("J",2,
-                32.5);
+                26.80);
+        OrderingLunch meal08 = new OrderingLunch("H",1,
+                35.60);
+        OrderingLunch meal09 = new OrderingLunch("I",1,
+                40.30);
+        OrderingLunch meal10 = new OrderingLunch("J",1,
+                32.70);
 
         List<IBill> menu = new ArrayList<>();
         menu.add(meal01);

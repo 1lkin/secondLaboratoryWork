@@ -47,7 +47,7 @@ public class StandardLunch implements IBill {
 
     @Override
     public String toString() {
-        return "PEmpl{" +
+        return "StandardLunch{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 '}';

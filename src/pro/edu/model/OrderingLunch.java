@@ -57,7 +57,7 @@ public class OrderingLunch implements IBill {
 
     @Override
     public String toString() {
-        return "FEmpl{" +
+        return "OrderingLunch{" +
                 "name='" + name + '\'' +
                 ", serving=" + serving +
                 ", price=" + price +
